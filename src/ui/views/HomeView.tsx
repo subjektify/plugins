@@ -25,6 +25,21 @@ export const HomeView = () => {
             </Divider>
             <Divider horizontal>
                 <Header as='h4'>
+                    Compile
+                </Header>
+            </Divider>
+            <Divider horizontal>
+                <Header as='h4'>
+                    Run
+                </Header>
+            </Divider>
+            <Divider horizontal>
+                <Header as='h4'>
+                    Deploy
+                </Header>
+            </Divider>
+            <Divider horizontal>
+                <Header as='h4'>
                     Composer
                 </Header>
             </Divider>

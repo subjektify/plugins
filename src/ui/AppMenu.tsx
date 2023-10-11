@@ -10,6 +10,9 @@ export const AppMenu = () => {
           Plugins
         </Menu.Item>
         <Menu.Item as='a'>Build</Menu.Item>
+        <Menu.Item as='a'>Compile</Menu.Item>
+        <Menu.Item as='a'>Run</Menu.Item>
+        <Menu.Item as='a'>Deploy</Menu.Item>
         <Menu.Item as='a'>Composer</Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item>
