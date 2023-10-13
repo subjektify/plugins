@@ -9,10 +9,7 @@ export const AppMenu = () => {
           <Image size='mini' src='https://assets.grams.dev/subjektify/logo/logo.png' style={{ marginRight: '1.5em' }} />
           Plugins
         </Menu.Item>
-        <Menu.Item as='a'>Build</Menu.Item>
-        <Menu.Item as='a'>Compile</Menu.Item>
-        <Menu.Item as='a'>Run</Menu.Item>
-        <Menu.Item as='a'>Deploy</Menu.Item>
+        <Menu.Item as='a'>Subjektify</Menu.Item>
         <Menu.Item as='a'>Composer</Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item>

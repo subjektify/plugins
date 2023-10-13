@@ -20,22 +20,7 @@ export const HomeView = () => {
             </Container>
             <Divider horizontal>
                 <Header as='h4'>
-                    Build
-                </Header>
-            </Divider>
-            <Divider horizontal>
-                <Header as='h4'>
-                    Compile
-                </Header>
-            </Divider>
-            <Divider horizontal>
-                <Header as='h4'>
-                    Run
-                </Header>
-            </Divider>
-            <Divider horizontal>
-                <Header as='h4'>
-                    Deploy
+                    Subjektify
                 </Header>
             </Divider>
             <Divider horizontal>
