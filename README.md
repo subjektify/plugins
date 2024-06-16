@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Subjektify Plugins
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Extensible plugins to supercharge your Subjektify development experience.
 
 ## Available Scripts
 
