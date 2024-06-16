@@ -1,4 +1,5 @@
-import { Button, Container, Divider, Header, Icon } from "semantic-ui-react"
+import { Container, Divider, Header, Icon } from "semantic-ui-react"
+import { FeaturedPlugins } from "../components"
 
 export const HomeView = () => {
     return (
@@ -14,20 +15,13 @@ export const HomeView = () => {
                     content='Supercharge your dApps with modular plugins'
                 />
             </Container>
-            <Container className="home-view-create">
-                <Button icon secondary labelPosition='left'>
-                    <Icon name='rocket' />Create your own</Button>
-            </Container>
             <Divider horizontal>
                 <Header as='h4'>
-                    Subjektify
+                    <Icon name='paper plane' />
+                    Featured Plugins
                 </Header>
             </Divider>
-            <Divider horizontal>
-                <Header as='h4'>
-                    Composer
-                </Header>
-            </Divider>
+            <FeaturedPlugins />
         </div>
     )
 }
