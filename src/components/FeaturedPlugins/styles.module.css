@@ -1,0 +1,43 @@
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: var(--ifm-global-radius);
+    box-shadow: var(--ifm-shadow-md);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--ifm-shadow-lg);
+}
+
+.cardImage {
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardImage img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cardContent {
+    padding: 1rem;
+    background-color: var(--ifm-background-surface-color);
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 0 0 var(--ifm-global-radius) var(--ifm-global-radius);
+}
+
+.text--secondary {
+    color: var(--ifm-color-secondary);
+}
+
+.col {
+    display: flex;
+    align-items: stretch;
+}
