@@ -1,4 +1,4 @@
-# Website
+# Subjektify Plugins
 
 Extensible plugins to supercharge your Subjektify development experience.
 
