@@ -13,36 +13,12 @@ export default class Plugins {
 
     public static readonly officialPlugins: IPlugin[] = [
         {
-            name: "subjektify-build",
+            name: "subjektify-toolbox",
             githubRepo: "subjektify/subjektify",
-            npmPackage: "@subjektifylabs/subjektify-build",
+            npmPackage: "@subjektifylabs/subjektify-toolbox",
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",
-            description: "Build, validate, and compile your Subjekt model."
-        },
-        {
-            name: "subjektify-codegen",
-            githubRepo: "subjektify/subjektify",
-            npmPackage: "@subjektifylabs/subjektify-codegen",
-            author: "Subjektify Labs",
-            authorUrl: "https://subjektify.dev",
-            description: "Generate code based on your Subjekt model."
-        },
-        {
-            name: "subjektify-docgen",
-            githubRepo: "subjektify/subjektify",
-            npmPackage: "@subjektifylabs/subjektify-docgen",
-            author: "Subjektify Labs",
-            authorUrl: "https://subjektify.dev",
-            description: "Generate documentation from your Subjekt model."
-        },
-        {
-            name: "subjektify-deploy",
-            githubRepo: "subjektify/subjektify",
-            npmPackage: "@subjektifylabs/subjektify-deploy",
-            author: "Subjektify Labs",
-            authorUrl: "https://subjektify.dev",
-            description: "Automate the deployment of your Subjektify projects."
+            description: "A collection of tools to help you build Subjektify projects."
         },
         {
             name: "subjektify-hardhat",
@@ -51,6 +27,14 @@ export default class Plugins {
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",
             description: "Integrate Hardhat into your Subjektify projects."
-        }
+        },
+        {
+            name: "subjektify-react",
+            githubRepo: "subjektify/subjektify-react",
+            npmPackage: "@subjektifylabs/subjektify-react",
+            author: "Subjektify Labs",
+            authorUrl: "https://subjektify.dev",
+            description: "Generate React hooks from your Subjekt model."
+        },
     ];
 }

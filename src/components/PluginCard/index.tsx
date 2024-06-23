@@ -4,7 +4,7 @@ import { IPlugin } from "../Plugins";
 export default function PluginCard({ name, githubRepo, npmPackage, author, authorUrl, description }: IPlugin) {
     return (
         <div className="col col--4 margin-bottom--lg">
-            <div className="card shadow--sm">
+            <div className="card shadow--md">
                 <div className="card__header">
                     <h3 className="margin-bottom--xs">{name}</h3>
                     <a href={authorUrl} target="_blank" rel="noopener noreferrer">
