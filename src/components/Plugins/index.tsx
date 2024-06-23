@@ -9,18 +9,12 @@ export interface IPlugin {
 
 export default class Plugins {
     public static readonly communityPlugins: IPlugin[] = [
-        {
-            name: "subjektify-react",
-            npmPackage: "@community/subjektify-react",
-            author: "Community Dev",
-            authorUrl: "https://github.com/communitydev",
-            description: "A plugin to generate React hooks for the Subjekt model."
-        }
     ];
 
     public static readonly officialPlugins: IPlugin[] = [
         {
             name: "subjektify-build",
+            githubRepo: "subjektify/subjektify",
             npmPackage: "@subjektifylabs/subjektify-build",
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",
@@ -28,6 +22,7 @@ export default class Plugins {
         },
         {
             name: "subjektify-codegen",
+            githubRepo: "subjektify/subjektify",
             npmPackage: "@subjektifylabs/subjektify-codegen",
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",
@@ -35,6 +30,7 @@ export default class Plugins {
         },
         {
             name: "subjektify-docgen",
+            githubRepo: "subjektify/subjektify",
             npmPackage: "@subjektifylabs/subjektify-docgen",
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",
@@ -42,6 +38,7 @@ export default class Plugins {
         },
         {
             name: "subjektify-deploy",
+            githubRepo: "subjektify/subjektify",
             npmPackage: "@subjektifylabs/subjektify-deploy",
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",
@@ -49,6 +46,7 @@ export default class Plugins {
         },
         {
             name: "subjektify-hardhat",
+            githubRepo: "subjektify/subjektify",
             npmPackage: "@subjektifylabs/subjektify-hardhat",
             author: "Subjektify Labs",
             authorUrl: "https://subjektify.dev",

@@ -9,6 +9,7 @@ export default function CommunityPlugins(): JSX.Element {
                     <PluginCard
                         key={index}
                         name={plugin.name}
+                        githubRepo={plugin.githubRepo}
                         npmPackage={plugin.npmPackage}
                         author={plugin.author}
                         authorUrl={plugin.authorUrl}

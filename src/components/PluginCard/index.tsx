@@ -17,7 +17,7 @@ export default function PluginCard({ name, githubRepo, npmPackage, author, autho
                 <div className="card__footer">
                     <div className="button-group button-group--block">
                         <a
-                            href={githubRepo}
+                            href={`https://www.github.com/${githubRepo}`}
                             target="_blank"
                             className="button button--secondary button--block"
                         >
