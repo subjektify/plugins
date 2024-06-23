@@ -1,28 +1,38 @@
-export interface PluginCardProps {
-    title: string;
-    meta?: string;
-    imageUrl?: string;
-    description: string;
-    link: string;
-}
+import React from "react";
+import { IPlugin } from "../Plugins";
 
-export default function PluginCard({ title, meta, description, link }: PluginCardProps) {
+export default function PluginCard({ name, githubRepo, npmPackage, author, authorUrl, description }: IPlugin) {
     return (
-        <div className="col">
-        <div className="card">
-            <div className="card__header">
-                <h3 className="margin-bottom--xs">{title}</h3>
-                <p>{meta}</p>
+        <div className="col col--4 margin-bottom--lg">
+            <div className="card shadow--sm">
+                <div className="card__header">
+                    <h3 className="margin-bottom--xs">{name}</h3>
+                    <a href={authorUrl} target="_blank" rel="noopener noreferrer">
+                        {author}
+                    </a>
+                </div>
+                <div className="card__body">
+                    <p>{description}</p>
+                </div>
+                <div className="card__footer">
+                    <div className="button-group button-group--block">
+                        <a
+                            href={githubRepo}
+                            target="_blank"
+                            className="button button--secondary button--block"
+                        >
+                            Github
+                        </a>
+                        <a
+                            href={`https://www.npmjs.com/package/${npmPackage}`}
+                            target="_blank"
+                            className="button button--secondary button--block"
+                        >
+                            NPM
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div className="card__body">
-                <p>
-                    {description}
-                </p>
-            </div>
-            <div className="card__footer">
-                <button className="button button--secondary button--block">Learn More</button>
-            </div>
-        </div>
         </div>
     );
 }
